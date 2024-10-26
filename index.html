@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to My Blog</h1>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#posts">Posts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>Welcome to my blog! This is a place where I share my thoughts, ideas, and projects.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm a blogger passionate about technology, programming, and web design. Stay tuned for interesting posts!</p>
+        </section>
+        <section id="posts" class="section">
+            <h2>Blog Posts</h2>
+            <div class="post">
+                <h3>Post Title 1</h3>
+                <p>This is a summary of the first post.</p>
+                <button onclick="readMore()">Read more</button>
+            </div>
+            <div class="post">
+                <h3>Post Title 2</h3>
+                <p>This is a summary of the second post.</p>
+                <button onclick="readMore()">Read more</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
